@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Illias Geeraers</title>
+    <meta name="description" content="Neem contact op met Illias Geeraers via Illias Solutions. Heb je vragen over mijn IT-projecten of diensten? Stuur mij gerust een bericht.">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white text-black">
+
+    <a href="#inhoud"
+       class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:bg-white focus:px-4 focus:py-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">
+        Ga naar de inhoud
+    </a>
+
+    <div class="max-w-6xl mx-auto px-4">
+
+        <header class="flex flex-col gap-3 py-4 border-b border-gray-200 sm:flex-row sm:items-center sm:justify-between">
+            <a href="index.html"
+               class="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">
+                <img src="afbeeldingen/Afbeelding5.png" alt="Illias Solutions logo" width="112" height="80" class="w-28 h-20 object-contain">
+            </a>
+            <nav aria-label="Hoofdnavigatie">
+                <ul class="flex flex-wrap gap-x-6 gap-y-2 font-medium">
+                    <li><a href="index.html" class="block px-3 py-2 hover:text-[#1E3A5F] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">Home</a></li>
+                    <li><a href="portfolio.html" class="block px-3 py-2 hover:text-[#1E3A5F] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">Portfolio</a></li>
+                    <li><a href="project.html" class="block px-3 py-2 hover:text-[#1E3A5F] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">Project</a></li>
+                    <li><a href="contact.html" aria-current="page" class="block px-3 py-2 text-[#1E3A5F] font-bold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="grid grid-cols-1 gap-8 py-8 md:grid-cols-3">
+
+            <main id="inhoud" class="md:col-span-2">
+                <section class="mb-8">
+                    <h1 class="text-3xl font-bold mb-3 md:text-4xl">Contacteer mij</h1>
+                    <p class="leading-relaxed">
+                        Heb je een vraag over mijn portfolio of mijn opleiding?
+                        Neem gerust contact met mij op.
+                    </p>
+                </section>
+
+                <section class="border border-gray-200 rounded-lg p-5">
+                    <h2 class="text-2xl font-bold mb-5">Contactformulier</h2>
+
+                    <p class="mb-5 text-sm text-gray-600">
+                        Velden met een <span class="text-red-700 font-semibold" aria-hidden="true">*</span> zijn verplicht.
+                    </p>
+
+                    <form action="#" method="get" class="space-y-5 max-w-2xl">
+
+                        <div>
+                            <label for="naam" class="block font-medium mb-2">
+                                Naam <span class="text-red-700" aria-hidden="true">*</span>
+                            </label>
+                            <input type="text" id="naam" name="naam" autocomplete="name" required
+                                class="w-full border border-gray-300 rounded-lg p-3 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">
+                        </div>
+
+                        <div>
+                            <label for="email" class="block font-medium mb-2">
+                                E-mailadres <span class="text-red-700" aria-hidden="true">*</span>
+                            </label>
+                            <input type="email" id="email" name="email" autocomplete="email" required
+                                aria-describedby="email-hulp"
+                                class="peer w-full border border-gray-300 rounded-lg p-3 user-invalid:border-red-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">
+
+                            <p id="email-hulp" class="mt-1 text-sm text-gray-600">
+                                Vul een e-mailadres in zoals naam@voorbeeld.be.
+                            </p>
+                            <p class="mt-1 hidden text-sm font-semibold text-red-700 peer-user-invalid:block">
+                                Dit e-mailadres klopt niet. Vul het in zoals naam@voorbeeld.be.
+                            </p>
+                        </div>
+
+                        <div>
+                            <label for="onderwerp" class="block font-medium mb-2">
+                                Onderwerp <span class="text-red-700" aria-hidden="true">*</span>
+                            </label>
+                            <input type="text" id="onderwerp" name="onderwerp" required
+                                class="w-full border border-gray-300 rounded-lg p-3 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">
+                        </div>
+
+                        <div>
+                            <label for="bericht" class="block font-medium mb-2">
+                                Bericht <span class="text-red-700" aria-hidden="true">*</span>
+                            </label>
+                            <textarea id="bericht" name="bericht" rows="6" required
+                                class="w-full border border-gray-300 rounded-lg p-3 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]"></textarea>
+                        </div>
+
+                        <button type="submit"
+                            class="bg-[#1E3A5F] text-white px-6 py-3 rounded-lg font-bold hover:bg-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">
+                            Bericht versturen
+                        </button>
+
+                    </form>
+                    <p class="text-sm text-gray-600 mt-4">
+                        Dit formulier is een demonstratie en verstuurt nog geen berichten.
+                        Gebruik het e-mailadres om mij rechtstreeks te contacteren.
+                        Vul geen echte persoonsgegevens in dit formulier in.
+                    </p>
+                </section>
+            </main>
+
+            <aside class="space-y-5">
+                <section class="bg-[#1E3A5F] text-white p-5 rounded-lg">
+                    <h2 class="text-xl font-bold mb-4">Contactgegevens</h2>
+                    <p class="mb-2">Illias Geeraers</p>
+                    <p class="mb-3 text-sm">Student Systeem- en Netwerkbeheer</p>
+                    <a href="mailto:illias.geeraers@student.ap.be"
+                       class="underline text-sm break-words focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+                        illias.geeraers@student.ap.be
+                    </a>
+                </section>
+
+                <section class="bg-[#1E3A5F] text-white p-5 rounded-lg">
+                    <h2 class="text-xl font-bold mb-3">Mijn opleiding</h2>
+                    <p class="text-sm mb-2">AP Hogeschool</p>
+                    <p class="text-sm">Graduaat Systeem- en Netwerkbeheer</p>
+                </section>
+             
+                <section class="rounded-lg overflow-hidden">
+                
+                </section>
+            </aside>
+
+        </div>
+
+        <footer class="flex flex-col gap-2 border-t border-gray-200 py-5 text-sm sm:flex-row sm:items-center sm:justify-between">
+            <p>&copy; 2026 Illias Solutions</p>
+            <p>Illias Geeraers — Systeem- en Netwerkbeheer</p>
+        </footer>
+
+    </div>
+</body>
+</html>

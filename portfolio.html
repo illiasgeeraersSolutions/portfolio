@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Illias Geeraers</title>
+    <meta name="description" content="Bekijk het portfolio van Illias Geeraers met mijn IT-projecten, vaardigheden en werk voor mijn opleiding systeem- en netwerkbeheer.">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white text-black">
+
+    <a href="#inhoud"
+       class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:bg-white focus:px-4 focus:py-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">
+        Ga naar de inhoud
+    </a>
+
+    <div class="max-w-6xl mx-auto px-4">
+
+        <header class="flex flex-wrap items-center justify-between gap-3 py-4 border-b border-gray-200">
+            <a href="index.html"
+               class="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">
+                <img src="afbeeldingen/Afbeelding5.png" alt="Illias Solutions logo"
+                    width="112" height="80" class="w-28 h-20 object-contain">
+            </a>
+
+            <input type="checkbox" id="menu-knop" class="peer sr-only">
+            <label for="menu-knop"
+                class="cursor-pointer rounded-lg border border-gray-300 px-3 py-2 peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-[#1E3A5F] md:hidden">
+                Menu
+            </label>
+
+            <nav aria-label="Hoofdnavigatie"
+                class="hidden w-full peer-checked:block md:block md:w-auto">
+                <ul class="flex flex-col gap-2 font-medium md:flex-row">
+                    <li>
+                        <a href="index.html"
+                            class="block px-3 py-2 rounded-lg hover:text-[#1E3A5F] hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html" aria-current="page"
+                            class="block px-3 py-2 rounded-lg bg-blue-100 text-[#1E3A5F] font-bold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="project.html"
+                            class="block px-3 py-2 rounded-lg hover:text-[#1E3A5F] hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">
+                            Project
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html"
+                            class="block px-3 py-2 rounded-lg hover:text-[#1E3A5F] hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="grid grid-cols-1 gap-8 py-8 md:grid-cols-3">
+            <main id="inhoud" class="md:col-span-2">
+                <section class="mb-8">
+                    <h1 class="text-3xl font-bold mb-3 md:text-4xl">Mijn portfolio</h1>
+                    <p class="leading-relaxed">
+                        Welkom op mijn portfolio. Hier ontdek je mijn
+                        interesses, vaardigheden en werk binnen
+                        Systeem- en Netwerkbeheer.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold mb-4">Mijn werk en interesses</h2>
+
+                    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+
+                        <article class="border-2 border-[#1E3A5F] rounded-lg overflow-hidden sm:col-span-2">
+                            <img src="afbeeldingen/Afbeelding1.jpg" alt="Serverbeheer"
+                                width="1200" height="800" class="w-full h-56 object-cover">
+                            <div class="p-5">
+                                <h3 class="text-xl font-bold mb-2">Serverbeheer</h3>
+                                <p class="mb-4">Mijn interesse in servers, monitoring, Linux en ICT-infrastructuur.</p>
+                                <a href="project.html"
+                                   class="inline-block bg-[#1E3A5F] text-white px-4 py-2 rounded focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E3A5F]">Meer informatie</a>
+                            </div>
+                        </article>
+
+                        <article class="border-2 border-[#1E3A5F] rounded-lg overflow-hidden">
+                            <img src="afbeeldingen/Afbeelding2.png" alt="Datacenter"
+                                width="1200" height="800" class="w-full h-44 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-bold mb-2">Netwerken</h3>
+                                <p class="text-sm">Mijn interesse in netwerkbeheer en datacenters.</p>
+                            </div>
+                        </article>
+
+                        <article class="border-2 border-[#1E3A5F] rounded-lg overflow-hidden">
+                            <img src="afbeeldingen/Afbeelding3.jpg" alt="Mijn leertraject"
+                                width="1200" height="800" class="w-full h-44 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-bold mb-2">Cybersecurity</h3>
+                                <p class="text-sm">Mijn leertraject richting een toekomst in cybersecurity.</p>
+                            </div>
+                        </article>
+
+                        <article class="border-2 border-[#1E3A5F] rounded-lg overflow-hidden sm:col-span-2">
+                            <img src="afbeeldingen/Afbeelding4.jpg" alt="Blauwe technologieachtergrond"
+                                width="1200" height="800" class="w-full h-44 object-cover">
+                            <div class="p-5">
+                                <h3 class="text-xl font-bold mb-2">Webdesign & HTML</h3>
+                                <p>Ik leer websites maken met HTML, Tailwind CSS en responsieve layouts.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+            </main>
+
+            <aside class="space-y-5">
+                <section class="bg-[#1E3A5F] text-white p-5 rounded-lg">
+                    <h2 class="text-xl font-bold mb-3">Over mijn portfolio</h2>
+                    <p class="text-sm leading-relaxed">
+                        Dit portfolio toont mijn ontwikkeling als student
+                        Systeem- en Netwerkbeheer aan AP Hogeschool.
+                    </p>
+                </section>
+
+                <section class="bg-[#1E3A5F] text-white p-5 rounded-lg">
+                    <h2 class="text-xl font-bold mb-3">Mijn doel</h2>
+                    <p class="text-sm">Na mijn graduaat wil ik verder studeren in Cybersecurity.</p>
+                </section>
+            </aside>
+        </div>
+
+        <footer class="flex flex-col gap-2 border-t border-gray-200 py-5 text-sm sm:flex-row sm:items-center sm:justify-between">
+            <p>&copy; 2026 Illias Solutions</p>
+            <p>Illias Geeraers — Systeem- en Netwerkbeheer</p>
+        </footer>
+    </div>
+</body>
+</html>
